@@ -4,11 +4,11 @@
   "license": "MIT",
   "dependencies": {
     "@flatfile/api": "^0.0.18",
-    "@flatfile/api-beta": "^0.3.3",
-    "@flatfile/configure": "^0.5.19",
-    "@flatfile/listener": "^0.0.2",
-    "@flatfile/plugin-xlsx-extractor": "^0.0.3",
-    "flatfile": "^3.2.0",
+    "@flatfile/api-beta": "^0.3.7",
+    "@flatfile/configure": "^0.5.21",
+    "@flatfile/listener": "^0.0.4",
+    "@flatfile/plugin-xlsx-extractor": "^0.0.5",
+    "flatfile": "^3.2.2",
     "color": "^4.2.3"
   },
   "devDependencies": {

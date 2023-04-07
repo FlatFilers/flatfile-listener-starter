@@ -23,4 +23,23 @@ export class AuthenticatedClient {
     })
     return new DefaultApi(ClientConfig)
   }
+  private _fetch?: any
+
+  fetch(url: string) {
+    if (this._fetch) {
+      return this._fetch
+    }
+
+    const headers = {
+      Authorization:
+        `Bearer ${process.env.FLATFILE_BEARER_TOKEN}` ?? `Bearer ...`,
+    }
+    const fetchUrl = FLATFILE_API_URL + '/' + url
+    
+    return fetch(fetchUrl, {
+      headers,
+    })
+      .then((resp) => resp.json())
+      .then((resp) => resp.data)
+  }
 }

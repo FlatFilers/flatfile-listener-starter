@@ -1,5 +1,11 @@
 # @flatfile/schema
 
+## 0.2.14
+
+### Patch Changes
+
+- 8ed4e8c: Bumps API version and adds support for record metadata to @flatfile/hooks.
+
 ## 0.2.13
 
 ### Patch Changes

@@ -35,10 +35,10 @@
   resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.17.12.tgz"
   integrity sha512-O3GCZghRIx+RAN0NDPhyyhRgwa19MoKlzGonIb5hgTj78krqp9XZbYCvFr9N1eUxg0ZQEpiiZ4QvsOQwBpP+lg==
 
-"@flatfile/api-beta@^0.3.3":
-  version "0.3.4"
-  resolved "https://registry.npmjs.org/@flatfile/api-beta/-/api-beta-0.3.4.tgz"
-  integrity sha512-pgtNbLLY0KXO79nRcp4l46cQjZxbqqyhQBz2MCne4gE+TUZnx13YfGaouAcXuKvjFZIWnsM0XTNHZgGtD+p1cQ==
+"@flatfile/api-beta@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.npmjs.org/@flatfile/api-beta/-/api-beta-0.3.7.tgz"
+  integrity sha512-6KeXe6yyCL6KAqLEXvn10vl7O0qWWEj6/s+Gn+WQqja1h5LAi5RzZW+hWAk8sRVsqFBXmzgGdFOFRN0jVPXbkA==
   dependencies:
     "@types/url-join" "4.0.1"
     axios "0.27.2"
@@ -50,32 +50,31 @@
   resolved "https://registry.npmjs.org/@flatfile/api/-/api-0.0.18.tgz"
   integrity sha512-O4gCX6LyOZoywB8qFtBmUEKnEM2NQF2cAPRyC7WBHncfnfuSQTO9xuCNzKo3RD3CUfBzlzvgJEly+zsFR4AKQw==
 
-"@flatfile/configure@^0.5.19":
-  version "0.5.19"
-  resolved "https://registry.npmjs.org/@flatfile/configure/-/configure-0.5.19.tgz"
-  integrity sha512-rZylCo8vNJ1QGPO76Q+DsSGw++mqkJc9v9RlvoMMUlVdyRZQDjmrpCjxPvzx8UVxMBa3H1ePby03N+G6JbZAqg==
+"@flatfile/configure@^0.5.21":
+  version "0.5.21"
+  resolved "https://registry.npmjs.org/@flatfile/configure/-/configure-0.5.21.tgz"
+  integrity sha512-IGtnxSliIujLZDX+QkdD09yRxv+bxgwfxWxxsCNsGGZh99C4AXp/75lyvXUJK+euov4jhUC2MYbiSx9zUOD1Tw==
   dependencies:
-    "@flatfile/hooks" "^1.2.3"
+    "@flatfile/hooks" "^1.2.4"
     "@flatfile/orm" "^0.1.0"
-    "@flatfile/schema" "^0.2.13"
+    "@flatfile/schema" "^0.2.14"
     case-anything "^2.1.10"
     date-fns "^2.29.1"
     xlsx "^0.18.5"
 
-"@flatfile/hooks@^1.2.3", "@flatfile/hooks@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/@flatfile/hooks/-/hooks-1.2.3.tgz"
-  integrity sha512-KbpIwTralY/a3qdHhZMcWMo/WblyxWTnzMHEj0msGCiLIMHegTKrFML2zJzf3OCeIMyR8m+cLRLaqYkV3ZY1Ow==
+"@flatfile/hooks@^1.2.4", "@flatfile/hooks@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/@flatfile/hooks/-/hooks-1.2.4.tgz"
+  integrity sha512-X46AGshuM0rt4YycYOtGObKxKlhwHOMqzuwBr0ZbmGJpCCI3HfEZxbFbzVvtErgiWJBUg/EAk8ZeJuQvRho/JQ==
 
-"@flatfile/listener@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@flatfile/listener/-/listener-0.0.2.tgz"
-  integrity sha512-oaWNtI6GrI78sll/qzgK2qi2KKlOtIPFXgQPp1cGwkXbIOPtmlO3X24NsjOpuUOZtm+eZfFmqBBi0QZlhiZ0Ag==
+"@flatfile/listener@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/@flatfile/listener/-/listener-0.0.4.tgz"
+  integrity sha512-gn2nZOFrCdrNwilyVboZyddpwUPy09nDvXt1JayrylWhRbEB9eEb+0WiLX8kxfAiKf9fVOyIQPBTFMQSwNE1ng==
   dependencies:
-    "@flatfile/hooks" "1.2.3"
+    "@flatfile/hooks" "1.2.4"
     "@flatfile/orm" "0.1.0"
-    "@flatfile/schema" "0.2.13"
-    axios "^1.2.1"
+    "@flatfile/schema" "0.2.14"
     case-anything "^2.1.10"
     date-fns "^2.29.1"
     xlsx "^0.18.5"
@@ -85,15 +84,15 @@
   resolved "https://registry.npmjs.org/@flatfile/orm/-/orm-0.1.0.tgz"
   integrity sha512-eS8BjNs/tEsyP8Iw84hX6gzBi6H/tzmxn2fvpZ7dcrfDtyhc5k2YbetZbY4NdOg8d6YPQT8hiplXs9bwMPutxw==
 
-"@flatfile/plugin-xlsx-extractor@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/@flatfile/plugin-xlsx-extractor/-/plugin-xlsx-extractor-0.0.3.tgz"
-  integrity sha512-vnpqqVG7OjbBj4YxIITSTchV0q19/0G4fB1c3lfHZgOXw4unIDM1x6E4A0vtm9fD1k69vnKtESzntfOChKpFrg==
+"@flatfile/plugin-xlsx-extractor@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/@flatfile/plugin-xlsx-extractor/-/plugin-xlsx-extractor-0.0.5.tgz"
+  integrity sha512-dbTMqD6sjXea/B9K2DUBx430bnVNqcz8s/mL0jh5hsFlJr3UG0QCEtCMGE9eUdFITT69JIcrPcMQLvhrQNJfvw==
 
-"@flatfile/schema@^0.2.13", "@flatfile/schema@0.2.13":
-  version "0.2.13"
-  resolved "https://registry.npmjs.org/@flatfile/schema/-/schema-0.2.13.tgz"
-  integrity sha512-EzoDgjn+/PDLHdtwIlrzHKefbFvl7ccV5Qtchi51zdVmFjSxpVcn9GhJbYOuHttj8JVq6z41UEA2CrHmDCzl4g==
+"@flatfile/schema@^0.2.14", "@flatfile/schema@0.2.14":
+  version "0.2.14"
+  resolved "https://registry.npmjs.org/@flatfile/schema/-/schema-0.2.14.tgz"
+  integrity sha512-egW7wZXH0QzwjHS0o6qhI0xYZH0GKaKTRnkd4Kl2gsmwFG23fCRAq46ZnZGvYR5seFYEtW35NYxiG7XrwuVXpw==
 
 "@jridgewell/gen-mapping@^0.3.0":
   version "0.3.2"
@@ -1040,10 +1039,10 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-flatfile@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/flatfile/-/flatfile-3.2.0.tgz"
-  integrity sha512-qjocJ5v9jQBLd6TfFoJof3jy9D9lV5f7XpzKY3jKY+NuYsCXynajoMdS7AQtwbZ/HPgGFHscdYChA0hn6CHYAA==
+flatfile@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/flatfile/-/flatfile-3.2.2.tgz"
+  integrity sha512-wRLOZQGkNZNnepkYAv4v18bw1Wv7cO3Svw0zsNj5chtXYsun5R+6TbZD4iJLGnEHjFak9lwPU0n+pEZlbSVDBg==
   dependencies:
     "@rollup/plugin-commonjs" "^23.0.3"
     "@rollup/plugin-json" "^5.0.2"

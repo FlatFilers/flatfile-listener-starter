@@ -134,5 +134,6 @@ export const SchemaILModelToSheetConfig = (
     name: model.name,
     readonly: model.readonly || false,
     actions: model.actions,
+    access: model.access,
   }
 }

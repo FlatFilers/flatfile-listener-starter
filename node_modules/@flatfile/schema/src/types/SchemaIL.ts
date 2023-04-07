@@ -1,4 +1,4 @@
-import { Action } from '@flatfile/blueprint'
+import { Action, SheetAccess } from '@flatfile/api'
 import { FieldVisibilityTypes } from './JsonSchema'
 
 export type BaseFieldTypes = 'string' | 'number' | 'boolean' | 'composite'
@@ -74,6 +74,7 @@ export interface SchemaILModel<
   slug: string
   namespace: string
   fields: Fields
+  access?: SheetAccess[]
   readonly?: boolean
   required?: Array<keyof Fields | Array<keyof Fields>>
   unique?: Array<keyof Fields | Array<keyof Fields>>
