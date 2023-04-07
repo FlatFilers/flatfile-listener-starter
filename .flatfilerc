@@ -1,0 +1,11 @@
+{
+    "endpoint": "https://api.x.flatfile.com/v1",
+    "env": "us_env_9xuN8nAY",
+    "version": "10",
+    "clientId": "1b285c6d-db08-4d52-a52b-5d39858178d1",
+    "secret": "17687132-d8fe-408d-9a3d-10a1e3bf5b6a",
+    "internal": {
+        "clientId": "1b285c6d-db08-4d52-a52b-5d39858178d1",
+        "secret": "17687132-d8fe-408d-9a3d-10a1e3bf5b6a"
+    }
+}
