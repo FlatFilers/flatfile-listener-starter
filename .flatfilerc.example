@@ -1,0 +1,11 @@
+{
+    "endpoint": "https://api.x.flatfile.com/v1",
+    "env": "",
+    "version": "10",
+    "clientId": "",
+    "secret": "",
+    "internal": {
+        "clientId": "",
+        "secret": ""
+    }
+}

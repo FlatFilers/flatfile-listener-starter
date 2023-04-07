@@ -1,0 +1,32 @@
+{
+  "name": "flatfile-example-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@flatfile/api": "^0.0.18",
+    "@flatfile/api-beta": "^0.3.7",
+    "@flatfile/configure": "^0.5.21",
+    "@flatfile/listener": "^0.0.4",
+    "@flatfile/plugin-xlsx-extractor": "^0.0.5",
+    "flatfile": "^3.2.2",
+    "color": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "process": "^0.11.10",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "ts-node app.ts",
+    "deploy:listener-crossfield": "flatfile pubsub src/listeners/crossfield.ts",
+    "deploy:listener-externalapi": "flatfile pubsub src/listeners/externalapi.ts",
+    "deploy:listener-joinfields": "flatfile pubsub src/listeners/joinfields.ts",
+    "deploy:listener-npmpackage": "flatfile pubsub src/listeners/npmpackage.ts",
+    "deploy:listener-regex": "flatfile pubsub src/listeners/regex.ts",
+    "deploy:listener-splitfields": "flatfile pubsub src/listeners/splitfields.ts"
+  }
+}
