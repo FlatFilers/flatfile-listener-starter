@@ -32,7 +32,7 @@ const externalApiClient = Client.create((client) => {
                 {
                   key: 'brewery-name',
                   type: 'string',
-                  label: 'Brewery name',
+                  label: 'Denver Brewery name',
                 },
               ],
             },
