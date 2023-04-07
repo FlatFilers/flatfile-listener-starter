@@ -22,7 +22,7 @@ const joinFieldClient = Client.create((client) => {
       name: 'Part 3: Join Field',
       blueprints: [
         {
-          slug: 'basic-config-local',
+          slug: 'join-field-config',
           name: 'Join field blueprint',
           sheets: [
             {

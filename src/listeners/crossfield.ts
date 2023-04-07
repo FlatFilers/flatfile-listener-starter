@@ -20,7 +20,7 @@ const crossfieldClient = Client.create((client) => {
       name: 'Part 1: Crossfield',
       blueprints: [
         {
-          slug: 'basic-config-local',
+          slug: 'cross-field-config',
           name: 'Cross field blueprint',
           sheets: [
             {

@@ -21,7 +21,7 @@ const splitFieldClient = Client.create((client) => {
       name: 'Part 6: Split Field',
       blueprints: [
         {
-          slug: 'basic-config-local',
+          slug: 'split-field-config',
           name: 'Split field blueprint',
           sheets: [
             {
