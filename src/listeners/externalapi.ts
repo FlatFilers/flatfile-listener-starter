@@ -19,7 +19,7 @@ const externalApiClient = Client.create((client) => {
       blueprints: Blueprint[];
     } = {
       slug: 'external-api-config',
-      name: 'External API Config',
+      name: 'Part 2: External API',
       blueprints: [
         {
           slug: 'basic-config-local',

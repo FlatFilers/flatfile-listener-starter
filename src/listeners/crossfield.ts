@@ -17,7 +17,7 @@ const crossfieldClient = Client.create((client) => {
       blueprints: Blueprint[];
     } = {
       slug: 'cross-field-config',
-      name: 'Editable Name',
+      name: 'Part 1: Crossfield',
       blueprints: [
         {
           slug: 'basic-config-local',

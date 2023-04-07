@@ -20,7 +20,7 @@ const npmPackageClient = Client.create((client) => {
       blueprints: Blueprint[];
     } = {
       slug: 'npm-package-config',
-      name: 'NPM Package Config',
+      name: 'Part 4: NPM Package',
       blueprints: [
         {
           slug: 'basic-config-local',

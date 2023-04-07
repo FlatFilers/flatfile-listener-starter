@@ -19,7 +19,7 @@ const regExClient = Client.create((client) => {
       blueprints: Blueprint[];
     } = {
       slug: 'regex-config',
-      name: 'Regex Config',
+      name: 'Part 5: Regex',
       blueprints: [
         {
           slug: 'basic-config-local',

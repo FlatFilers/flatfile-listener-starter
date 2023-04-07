@@ -19,7 +19,7 @@ const joinFieldClient = Client.create((client) => {
       blueprints: Blueprint[];
     } = {
       slug: 'join-field-config',
-      name: 'Join Field Config',
+      name: 'Part 3: Join Field',
       blueprints: [
         {
           slug: 'basic-config-local',
